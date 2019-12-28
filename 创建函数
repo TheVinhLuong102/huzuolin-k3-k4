@@ -1,0 +1,15 @@
+def fw(power,sec):
+    motor_t.off()
+    motor_l.run(power)
+    motor_t.run(-power)
+    sys.sleep(sec)
+
+def tn(power,sec):
+    motor_l.off()
+    motor-r.off()
+    motor_t.run(power,sec)
+    
+fw(100,2)
+tn(100,2)
+fw(-100,2)
+tn(-100,2)
