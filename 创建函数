@@ -1,7 +1,7 @@
 def fw(power,sec):
     motor_t.off()
     motor_l.run(power)
-    motor_t.run(-power)
+    motor_r.run(-power)
     sys.sleep(sec)
 
 def tn(power,sec):
