@@ -10,7 +10,7 @@ def fw(power,sec):
 
 def tn(power,sec):
     motor_l.off()
-    motor-r.off()
+    motor_r.off()
     motor_t.run(power)
     sys.sleep(sec)
     
@@ -26,6 +26,7 @@ tn(-100,2)
 
 
 
+'''
 小车安装有五个万向轮
 四个负责前后移动，一个负责左右移动
 
@@ -48,3 +49,4 @@ motor.run(100,2)
 
 fw是函数
 run是方法
+'''
